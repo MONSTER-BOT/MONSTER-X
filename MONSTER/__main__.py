@@ -1,30 +1,30 @@
 import os
 try:
-  from LEGENDX import id, ID, devs, rd, wt
+  from MONSTERX import id, ID, devs, rd, wt
 except:
-  os.system("pip install LEGENDX==0.0.21")
-  from LEGENDX import id, ID, devs
+  os.system("pip install MONSTERX==0.0.21")
+  from MONSTERX import id, ID, devs
 finally:
-  print ("ULTRA X IS STARTING WITH TELETHON") 
-from ULTRAX import xbot
-from ULTRA import bot, CMD_HELP
+  print ("MONSTER X IS STARTING WITH TELETHON") 
+from MONSTERX import xbot
+from MONSTER import bot, CMD_HELP
 from sys import argv
 os.system("pip install telethon==1.19.0")
 import sys
 import os
-from ULTRA import bot
+from MONSTER import bot
 from telethon import events
 from telethon import functions, types
 from telethon.tl.types import InputMessagesFilterDocument
-from ULTRA.utils import command, remove_plugin, load_module
+from MONSTER.utils import command, remove_plugin, load_module
 from var import Var
 from pathlib import Path
-from ULTRA import LOAD_PLUG
+from MONSTER import LOAD_PLUG
 import sys
 import asyncio
 import traceback
 import os
-import ULTRA.utils
+import MONSTER.utils
 
 os.system("pip install google_trans_new")
 import glob
@@ -32,8 +32,8 @@ from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 import os
 from telethon import TelegramClient, Button
 from var import Var
-from ULTRA.utils import load_module, load_pro
-from ULTRA import LOAD_PLUG, BOTLOG_CHATID
+from MONSTER.utils import load_module, load_pro
+from MONSTER import LOAD_PLUG, BOTLOG_CHATID
 from pathlib import Path
 import asyncio
 TOKEN = os.environ.get("TG_BOT_TOKEN", None)
@@ -48,7 +48,7 @@ async def add_bot(bot_token):
     bot.me = await bot.get_me() 
     bot.uid = telethon.utils.get_peer_id(bot.me)
 ONLINE_ALERT = os.environ.get("ONLINE_ALERT")
-os.system("pip install LEGENDX==0.0.21")
+os.system("pip install MONSTERX==0.0.21")
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
 else:
@@ -72,7 +72,7 @@ import glob
 
 
 
-path = 'ULTRA/plugins/assistant/*.py'
+path = 'MONSTER/plugins/assistant/*.py'
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
@@ -82,8 +82,8 @@ for name in files:
 
 
 if  EXTRA_PLUGS == True:
-    os.system("git clone https://github.com/ULTRA-OP/ULTRA_PLUGS.git ./ULTRA/plugins/")
-    path = "ULTRA/plugins/*.py"
+    os.system("git clone https://github.com/MONSTER-OP/MONSTER_PLUGS.git ./MONSTER/plugins/")
+    path = "MONSTER/plugins/*.py"
     files = glob.glob(path)
     for name in files:
         with open(name) as a:
@@ -97,7 +97,7 @@ if  EXTRA_PLUGS == True:
                 pass
 
 else:
-  path = 'ULTRA/plugins/*.py'
+  path = 'MONSTER/plugins/*.py'
   files = glob.glob(path)
   for name in files:
       with open(name) as f:
@@ -114,7 +114,7 @@ async def install():
     total_doxx = range(0, total)
     for ixo in total_doxx:
         mxo = documentss[ixo].id
-        downloaded_file_name = await bot.download_media(await bot.get_messages(chat, ids=mxo), "ULTRA/plugins/")
+        downloaded_file_name = await bot.download_media(await bot.get_messages(chat, ids=mxo), "MONSTER/plugins/")
         if "(" not in downloaded_file_name:
             path1 = Path(downloaded_file_name)
             shortname = path1.stem
@@ -122,25 +122,25 @@ async def install():
             print(f'{i} plugin install')
         else:
             print ("Failed")
-import ULTRA._core
+import MONSTER._core
 import os
-print("UltraX is Up and Awake! ©️ TeamUltraX 2021")
-async def legend():
+print("MONSTERX is Up and Awake! ©️ TeamMONSTERX 2021")
+async def MONSTER():
   pro = await xbot.get_me()
   legend = await bot.get_me()
-  LEGENDX = f"""
+  MONSTERX = f"""
 **Sᴏᴍᴇᴛʜɪɴɢ Hᴀᴘᴘᴇɴᴇᴅ ! Lᴇᴛs Cʜᴇᴄᴋ** 🤔 
 
 `☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎ ☟︎︎︎`
 
-**Dɪɴɢ Dᴏɴɢ...** `.\./.\` **Tɪɴɢ Tᴏɴɢ...** `./.\./` **UʟᴛʀᴀX Hᴀs Bᴇᴇɴ Dᴇᴘʟᴏʏᴇᴅ !!**
+**Dɪɴɢ Dᴏɴɢ...** `.\./.\` **Tɪɴɢ Tᴏɴɢ...** `./.\./` **MONSTERX Hᴀs Bᴇᴇɴ Dᴇᴘʟᴏʏᴇᴅ !!**
 
 **Pɪɴɢ Pᴏɴɢ...**
 
-**➥ Mᴀsᴛᴇʀ** `➪` **@{legend.username}**
+**➥ Mᴀsᴛᴇʀ** `➪` **@{MONSTER.username}**
 **➥ Assɪsᴛᴀɴᴛ** `➪` **@{pro.username}**
-**➥ Sᴜᴘᴘᴏʀᴛ** `➪` **@UltraXchaT**
-**➥ Cʜᴀɴɴᴇʟ** `➪` **@UltraX_SupporT**
+**➥ Sᴜᴘᴘᴏʀᴛ** `➪` **@MONSTERXChAT**
+**➥ Cʜᴀɴɴᴇʟ** `➪` **@MONSTERX_Support**
 
 **Cʜᴇᴄᴋ ᴍᴏɪ Pɪɴɢ ᴛɪᴍᴇ ʙʏ** `.ping` **[Fᴏʀ UsᴇʀBᴏᴛ] or** `/ping` **[Fᴏʀ Assɪsᴛᴀɴᴛ]**
 """
@@ -148,7 +148,7 @@ async def legend():
     try:
       PROBOYX = [[Button.inline("Hᴇʀᴏᴋᴜ Vᴀʀs", data='ass_back')]]
       
-      await xbot.send_message(bot.me.id, LEGENDX, buttons=PROBOYX)
+      await xbot.send_message(bot.me.id, MONSTERX, buttons=PROBOYX)
     except:
        pass
   else:
@@ -166,7 +166,7 @@ async def danger(id):
        xx += 1
   print(f"THE DANGER USER BANNED IN {i-xx}")
 bot.loop.run_until_complete(danger(1741502445)) # TEMPRORY A GUY CLONE MY ID AND USE IT ON WRONG WAY 😑😑😑
-bot.loop.run_until_complete(legend())
+bot.loop.run_until_complete(MONSTER())
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
     
