@@ -47,7 +47,7 @@ Also join [support channel and group](https://github.com/Monster-OP/Monster-X#o%
 
 ## Oғғɪᴄɪᴀʟ Sᴜᴘᴘᴏʀᴛ
 <a href="https://telegram.me//MONSTERXChAT"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://telegram.me/UltraX_Support"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/MONSTERX_Support"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ## Tʜᴇ Nᴏʀᴍᴀʟ Wᴀʏ
 
