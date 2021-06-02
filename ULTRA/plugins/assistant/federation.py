@@ -1,14 +1,14 @@
-# COPYRIGHT (C) 2021-22 BY LEGENDX22, TEAMLEGEND
+# COPYRIGHT (C) 2021-22 BY MONSTERX2, TEAMMONSTER
 # YOU CAN COPY BUT DONT REMOVE CREDITS
 # PLEASE ❤️
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
-from ULTRAX import xbot
+from MONSTERX import xbot
 import os, re, csv, json, time, uuid, pytz
 from datetime import datetime
 from io import BytesIO
-import ULTRA.plugins.sql_helper.feds_sql as sql
+import MONSTER.plugins.sql_helper.feds_sql as sql
 from telethon import *
 from telethon import Button, events
 from telethon.tl import *
@@ -28,7 +28,7 @@ async def is_admin(event, user):
     return is_mod
 
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
 
 from telethon.tl.types import ChatBannedRights
@@ -47,7 +47,7 @@ BANNED_RIGHTS = ChatBannedRights(
 
 
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
 OWNER_ID = bot.me.id
 async def get_user_from_event(event):
@@ -98,7 +98,7 @@ def is_user_fed_owner(fed_id, user_id):
 
 
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
 @xbot.on(events.NewMessage(pattern="^/newfed ?(.*)"))
 async def new(event):
@@ -269,7 +269,7 @@ async def p(event):
 
 
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
 @xbot.on(events.CallbackQuery(pattern=r"fkfed(\_(.*))"))
 async def smex_fed(event):
@@ -289,7 +289,7 @@ async def smex_fed(event):
      return await event.edit(f"User [{fname}](tg://user?id={user}) is now an admin of {name} [{fed_id}]")
 
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
 @xbot.on(events.CallbackQuery(pattern=r"smex(\_(.*))"))
 async def smex(event):
@@ -390,7 +390,7 @@ async def info(event):
 
 
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
 @xbot.on(events.CallbackQuery(pattern=r"fedadm(\_(.*))"))
 async def smex_fed(event):
@@ -425,7 +425,7 @@ async def smex_fed(event):
   await event.reply(text)
 
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
 @xbot.on(events.NewMessage(pattern="^/fban ?(.*)"))
 async def _(event):
@@ -592,7 +592,7 @@ async def _(event):
 
 
 """
-Fully Written by LEGENDX22
+Fully Written by MONSTERX2
 """
 @xbot.on(events.NewMessage(pattern="^/unfban ?(.*)"))
 async def unfban(event):
@@ -722,7 +722,7 @@ async def ligunset(event):
  await event.reply(f"The {name} federation has had its log location unset.")
 
 """
-Fully Written by LEGENDXOP == LEGENDX22
+Fully Written by MONSTERXOP == MONSTERX2
 """
 @xbot.on(events.NewMessage(pattern="^/subfed ?(.*)"))
 async def sub(event):
@@ -754,7 +754,7 @@ async def sub(event):
  await event.reply(f"Federation {name} has now subscribed to {sname}. All fedbans in {sname} will now take effect in both feds.")
 
 """
-Fully Written by LEGENDXOP == LEGENDX22
+Fully Written by MONSTERXOP == MONSTERX2
 """
 
 @xbot.on(events.NewMessage(pattern="^/unsubfed ?(.*)"))
@@ -839,7 +839,7 @@ async def fstat(event):
 
 
 """
-Fully Written by LEGENDXOP == LEGENDX22
+Fully Written by MONSTERXOP == MONSTERX2
 """
 
 
