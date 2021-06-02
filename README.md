@@ -39,7 +39,7 @@ Also join [support channel and group](https://github.com/Monster-OP/Monster-X#o%
 
 # Cʀᴇᴅɪᴛs 📍
 ## • LEGENDX  »»  <a href="https://github.com/LEGENDXOP" alt="LegendX"> <img src="https://img.shields.io/badge/LEGEND X-E5E4E2?logo=github" /></a>
-### • ULTRA X  »»  <a href="https://github.com/LEGENDXOP/LEGEND-BOT" alt="UltraX"> <img src="https://img.shields.io/badge/ULTRA-X-98AFC7?logo=github" /></a>
+### • ULTRA X  »»  <a href="https://github.com/LEGENDXOP/LEGEND-BOT" alt="UltraX"> <img src="https://img.shields.io/badge/Ultra-X-98AFC7?logo=github" /></a>
 ### • PROBOYX  »»  <a href="https://github.com/PROBOYX" alt="ProBoy X"> <img src="https://img.shields.io/badge/PROBOY X-625D5D?logo=github" /></a>
 ### • MADBOY   »»  <a href="https://github.com/madboy482" alt="MadBoy"> <img src="https://img.shields.io/badge/MADBOY-30302f?logo=github" /></a>
 
@@ -53,13 +53,13 @@ Also join [support channel and group](https://github.com/Monster-OP/Monster-X#o%
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/ULTRA-OP/ULTRA-X
+git clone https://github.com/Monster-OP/Monster-X
 cd ULTRA
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
 # <Create local_config.py with variables as given below>
-python3 -m ULTRA
+python3 -m Monster
 ```
 
 An example `local_config.py` file could be:
@@ -78,7 +78,7 @@ class Development(Var):
 
 ### Uɴɪʙᴏʀɢ Cᴏɴғɪɢʀɪᴜᴛɪᴏɴ
 
-The UniBorg Config is situated in `ULTRA/uniborgConfig.py`.
+The UniBorg Config is situated in `Monster/uniborgConfig.py`.
 
 **Heroku Configuration**
 Simply just leave the Config as it is.
@@ -92,13 +92,13 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 - This is because of `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
     - `APP_ID`:   You can get this value from https://my.telegram.org 
     - `API_HASH`:   You can get this value from https://my.telegram.org
-- The ULTRA will not work without setting the mandatory vars.
+- The Monster will not work without setting the mandatory vars.
 
 
 # Licence 📋
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-## Copyright (C) 2021 by Team Ultra for UltraX UserBot, < https://github.com/ULTRA-OP >.
+## Copyright (C) 2021 by Team Monster for MonsterX UserBot, < https://github.com/Monster-OP >.
 
 
 # ➥ ULTRA-X   »»  <a href="https://github.com/ULTRA-OP/ULTRA-X" alt="UltraX"> <img src="https://img.shields.io/badge/ULTRA X-413839?logo=github" /></a>
