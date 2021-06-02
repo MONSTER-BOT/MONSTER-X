@@ -5,33 +5,33 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f7c51539e67b483bb8d7749acca51d3a)](https://app.codacy.com/gh/legendx22/LEGEND-BOT?utm_source=github.com&utm_medium=referral&utm_content=legendx22/LEGEND-BOT&utm_campaign=Badge_Grade_Settings)
 [![Python 3.8.6](https://img.shields.io/badge/Python-3.8.6%20or%20newer-blue.svg)](https://www.python.org/downloads/release/python-386/)
-![GitHub repo size](https://img.shields.io/github/repo-size/ULTRA-OP/ULTRA-X)
+![GitHub repo size](https://img.shields.io/github/repo-size/Monster-OP/Monster-X)
 
 
-# υℓтяα χ вσт
-This is a ULTRA made for telegram. I made this ULTRA with help of all other ULTRAs available in telegram. All credits goes to its Respective Owners....
+# Monster χ вσт
+This is a Monster made for telegram. I made this Monster with help of all other Monsters available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official υℓтяα χ вσт made by [ Team Ultra](https://t.me/ULTRAXOT) 
+This is the one and only official monster χ вσт made by [ Team Monster](https://t.me/MonsterXOT) 
 
-Also join [support channel and group](https://github.com/ULTRA-OP/ULTRA-X#o%D2%93%D2%93%C9%AA%E1%B4%84%C9%AA%E1%B4%80%CA%9F-s%E1%B4%9C%E1%B4%98%E1%B4%98%E1%B4%8F%CA%80%E1%B4%9B) Enjoy Your Bot!!💝
+Also join [support channel and group](https://github.com/Monster-OP/Monster-X#o%D2%93%D2%93%C9%AA%E1%B4%84%C9%AA%E1%B4%80%CA%9F-s%E1%B4%9C%E1%B4%98%E1%B4%98%E1%B4%8F%CA%80%E1%B4%9B) Enjoy Your Bot!!💝
 
 [![Monster χ вσт ℓσgσ](https://telegra.ph/file/76c812807523431a6502c.jpg)](https://t.me/MonsterXOT)
 -------------------------------------------------
 
 ## Dᴇᴘʟᴏʏ:-
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMonster-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FMonster-OP%2FHEROKU)
 
 ------------------------------------------------
 
 ## Sᴛʀɪɴɢ Sᴇssɪᴏɴ:-
 
-## [String Session](https://replit.com/@legendx22/ULTRA-X)
+## [String Session](https://replit.com/@legendx22/Monster-X)
 
 -------------------------------------------------
 
 ## Sᴛᴀᴛᴜs Oғ Tʜɪs Bᴏᴛ
-<p align="left"><a href="https://github.com/ULTRAX-OP/ULTRA-X/network/members"><img src="https://img.shields.io/github/forks/ULTRA-OP/ULTRA-X?label=Forks&logoColor=pink&style=social"></a><p align="left"><a href="https://github.com/ULTRA-OP/ULTRA-X/stargazers"><img src="https://img.shields.io/github/stars/ULTRA-OP/ULTRA-X?logoColor=red&style=social"></a><p align="left"><a href="https://github.com/ULTRA-OP/ULTRA-x"><img src="https://img.shields.io/github/last-commit/Ultra-Op/Ultra-X?style=plastic"></a>
+<p align="left"><a href="https://github.com/Monster-OP/Monster-X/network/members"><img src="https://img.shields.io/github/forks/Monster-OP/Monster-X?label=Forks&logoColor=pink&style=social"></a><p align="left"><a href="https://github.com/Monster-OP/Monster-X/stargazers"><img src="https://img.shields.io/github/stars/Monster-OP/Monster-X?logoColor=red&style=social"></a><p align="left"><a href="https://github.com/Monster-OP/Monster-x"><img src="https://img.shields.io/github/last-commit/Monster-Op/Monster-X?style=plastic"></a>
 
 ## The owner would not be responsible for any kind of bans due to the bot...
 ## Fᴏʀᴋ Aᴛ Yᴏᴜʀ Oᴡɴ Rɪsᴋ
