@@ -39,7 +39,7 @@ Also join [support channel and group](https://github.com/Monster-OP/Monster-X#o%
 
 # Cʀᴇᴅɪᴛs 📍
 ## • MONSTER X  »»  <a href="https://github.com/MONSTER-BOT" alt="MONSTERX"> <img src="https://img.shields.io/badge/MONSTER X-E5E4E2?logo=github" /></a>
-### • ULTRA X  »»  <a href="https://github.com/MONSTER-BOT/MOTSTER-BOT" alt="MONSTERX"> <img src="https://img.shields.io/badge/MONSTER-X-98AFC7?logo=github" /></a>
+### • MONSTER X  »»  <a href="https://github.com/MONSTER-BOT/MOTSTER-BOT" alt="MONSTERX"> <img src="https://img.shields.io/badge/MONSTER-X-98AFC7?logo=github" /></a>
 ### • PROBOYX  »»  <a href="https://github.com/PROBOYX" alt="ProBoy X"> <img src="https://img.shields.io/badge/PROBOY X-625D5D?logo=github" /></a>
 ### • MADBOY   »»  <a href="https://github.com/madboy482" alt="MadBoy"> <img src="https://img.shields.io/badge/MADBOY-30302f?logo=github" /></a>
 
