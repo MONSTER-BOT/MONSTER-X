@@ -101,5 +101,5 @@ Fortunately there are no Mandatory vars for the UniBorg Support Config.
 ## Copyright (C) 2021 by Team Monster for MonsterX UserBot, < https://github.com/Monster-OP >.
 
 
-# ➥ ULTRA-X   »»  <a href="https://github.com/ULTRA-OP/ULTRA-X" alt="UltraX"> <img src="https://img.shields.io/badge/ULTRA X-413839?logo=github" /></a>
-# ➥ ULTRA-OP  »»  <a href="https://github.com/ULTRA-OP" alt="Ultra-Op"> <img src="https://img.shields.io/badge/ULTRA OP-BCE954?logo=github" /></a>
+# ➥ MONSTER-X   »»  <a href="https://github.com/MONSTER-BOT/MONSTER-BOT" alt="MONSTER-BOT"> <img src="https://img.shields.io/badge/MONSTER X-413839?logo=github" /></a>
+# ➥ MONSTER-OP  »»  <a href="https://github.com/MONSTER-BOT" alt="MONSTER-BOT"> <img src="https://img.shields.io/badge/MONSTER OP-BCE954?logo=github" /></a>
