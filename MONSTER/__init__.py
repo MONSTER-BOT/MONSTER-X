@@ -4,8 +4,15 @@ import sys
 import time
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from ULTRA.uniborgConfig import Config
+from Monster.uniborgConfig import Config
 from var import Var
+# decode and encode
+try:
+  import securex
+except:
+  os.system("pip install -U py-secure")
+  import securex
+
 StartTime = time.time()
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
@@ -23,25 +30,30 @@ CMD_HELP_BOT = {}
 BRAIN_CHECKER = []
 INT_PLUG = ""
 LOAD_PLUG = {}
-#from ULTRAX import xbot 
+#from Monster import xbot 
 #xbot = xbot 
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
-def HELP(**LEGENDX):
-	see = LEGENDX.get("NAME", None)
-	helper = LEGENDX.get("HELP", None)
+def HELP(**MONSTERX):
+	see = MONSTERX.get("NAME", None)
+	helper = MONSTERX.get("HELP", None)
 	if see is None:
-		LEGENDX["NAME"] = __name__
+		MONSTERX["NAME"] = __name__
 		CMD_HELP.update({see: helper})
 	elif helper is None:
-		LEGENDX[
-		    "HELP"] = "🥺🥺NOT COMMAND HELP🥺🥺\nADDED HERE\nIF YOU WANT TO KNOW ABOUT THIS PLUG-IN\nJOIN @ULTRAXCHAT"
+		MONSTERX[
+		    "HELP"] = "🥺🥺NOT COMMAND HELP🥺🥺\nADDED HERE\nIF YOU WANT TO KNOW ABOUT THIS PLUG-IN\nJOIN @MonsterXCHAT"
 	else:
 	  CMD_HELP.update({see: helper})
 	CMD_HELP.update({see: helper})
 
+def MONSTERX2(**MONSTERX):
+	see = MONSTERX.get("NAME", None)
+	helper = MINSTER X.get("HELP", None)
+	CMD_HELP.update({see: helper})
 
-LEGEND_ID = ["1100231654"]
+
+MONSTER_ID = ["1806251821"]
 
 """ PPE initialization. """
 
@@ -126,7 +138,7 @@ if bool(ENV):
     # FedBan Premium Module
     F_BAN_LOGGER_GROUP = os.environ.get("F_BAN_LOGGER_GROUP", None)
 
-    #make by LEGEND X 
+    #make by MONSTER X 
     botnickname = os.environ.get("BOT_NICK_NAME", None)
 
 # Heroku Credentials for updater.
@@ -158,7 +170,7 @@ if bool(ENV):
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/LEGENDXOP/LEGEND-BOT.git")
+    "https://github.com/MONSTERXOP/MONSTER-BOT.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -215,5 +227,5 @@ ISAFK = False
 AFKREASON = None
 SUDO_LIST = {}
 
-from ULTRA.helpers import *
-from ULTRA.helpers import functions as legdef
+from MONSTER.helpers import *
+from MONSTER.helpers import functions as legdef

@@ -1,3 +1,4 @@
+# jnl
 # COPYRIGHT (C) 2021-2022 BY LEGENDX22
 # MADE BY LEGENDX22
 from telethon import Button, events
@@ -33,8 +34,9 @@ async def file(event):
   PROBOYXOP = LEGENDX.article(title='Button by ULTRA X', text=f'{ok}', buttons=LEGENDX22)
   await event.answer([PROBOYXOP])
 
-CMD_HELP.update(
-    {
-        "buttons": ".button <button name>|<link>\n`.button DaisyX|https://t.me/DAISYXOT`\nmake sure your name and link no have Useless spece"
-    }
+CMD_HELP.update
+(
+  {
+    "button": ".button <button name>|<link>\n`.button UltraX|https://t.me/ULTRAXOT`\nmake sure your name and link no have Useless space"
+  }
 )

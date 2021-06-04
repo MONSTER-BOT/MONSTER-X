@@ -1,64 +1,64 @@
-# COPYRIGHT (C) 2021-2022 BY LEGENDX22
+# COPYRIGHT (C) 2021-2022 BY MONSTERX2
 # modify by madboy482 and alain_champion
 
-from ULTRA import bot
-from ULTRAX import xbot, ID
+from MONSTER import bot
+from MONSTERX import xbot, ID
 import heroku3
 from telethon import events
-from ULTRA import StartTime
+from MONSTER import StartTime
 import time
 import datetime
 from . import *
 from telethon import events, Button, custom
 import re, os
-from ULTRAX import PHOTO, xbot, BOT, VERSION
-from ULTRA import bot
+from MONSTERX import PHOTO, xbot, BOT, VERSION
+from MONSTER import bot
 @xbot.on(events.NewMessage(pattern=("/alive")))
 async def awake(event):
-  LEGENDX = f"Hᴇʟʟᴏ !! Tʜɪs ɪs **{BOT}**\n\n"
-  LEGENDX += "**Aʟʟ sʏsᴛᴇᴍs ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ...**\n\n"
-  LEGENDX += f"**{BOT} Vᴇʀsɪᴏɴ** : `{VERSION}`\n\n"
-  LEGENDX += f"**Usᴇʀ** : @{bot.me.username}\n\n"
-  LEGENDX += "**Fᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ ʙᴏᴛ...**\n\n"
-  LEGENDX += "**Tᴇʟᴇᴛʜᴏɴ** : `1.20`\n\n"
-  LEGENDX += "~~ **Tʜᴀɴᴋs ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴍᴇ** !!"
-  BUTTON = [[Button.url("Mᴀsᴛᴇʀ", f"https://t.me/{bot.me.username}"), Button.url(f"{BOT} Rᴇᴘᴏ", "https://github.com/ULTRA-OP/ULTRA-X")]]
-  BUTTON += [[custom.Button.inline("Rᴇᴘᴏsɪᴛᴏʀɪᴇs »»", data="LEGENDX")]]
-  await xbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
+  MONSTERX = f"Hᴇʟʟᴏ !! Tʜɪs ɪs **{BOT}**\n\n"
+  MONSTERX += "**Aʟʟ sʏsᴛᴇᴍs ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ...**\n\n"
+  MONSTERX += f"**{BOT} Vᴇʀsɪᴏɴ** : `{VERSION}`\n\n"
+  MONSTERX += f"**Usᴇʀ** : @{bot.me.username}\n\n"
+  MONSTERX += "**Fᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ ʙᴏᴛ...**\n\n"
+  MONSTERX += "**Tᴇʟᴇᴛʜᴏɴ** : `1.20`\n\n"
+  MONSTERX += "~~ **Tʜᴀɴᴋs ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴍᴇ** !!"
+  BUTTON = [[Button.url("Mᴀsᴛᴇʀ", f"https://t.me/{bot.me.username}"), Button.url(f"{BOT} Rᴇᴘᴏ", "https://github.com/MONSTER-OP/MONSTER-X")]]
+  BUTTON += [[custom.Button.inline("Rᴇᴘᴏsɪᴛᴏʀɪᴇs »»", data="MONSTERX")]]
+  await xbot.send_file(event.chat_id, PHOTO, caption=MONSTERX,  buttons=BUTTON)
 
 
 
 
-@xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"LEGENDX")))
+@xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"MONSTERX")))
 async def callback_query_handler(event):
-# inline by LEGENDX22 and PROBOY22 🔥
-  PROBOYX = [[Button.url("Rᴇᴘᴏ UʟᴛʀᴀX", "https://github.com/ULTRA-OP/ULTRA-X")]]
-  PROBOYX +=[[Button.url("Dᴇᴘʟᴏʏ UʟᴛʀᴀX", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU")]]
-  PROBOYX +=[[Button.url("Tᴜᴛᴏʀɪᴀʟ", "https://youtu.be/rGCSSFPsS4Q"), Button.url("Sᴛʀɪɴɢ Sᴇssɪᴏɴ", "https://replit.com/@legendx22/ULTRA-X#main.py")]]
+# inline by MONSTERX2 and PROBOY22 🔥
+  PROBOYX = [[Button.url("Rᴇᴘᴏ UʟᴛʀᴀX", "https://github.com/MONSTER-OP/MONSTER-X")]]
+  PROBOYX +=[[Button.url("Dᴇᴘʟᴏʏ UʟᴛʀᴀX", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMONSTER-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FMONSTER-OP%2FHEROKU")]]
+  PROBOYX +=[[Button.url("Tᴜᴛᴏʀɪᴀʟ", "https://youtu.be/rGCSSFPsS4Q"), Button.url("Sᴛʀɪɴɢ Sᴇssɪᴏɴ", "https://replit.com/@MONSTERX2/MONSTER-X#main.py")]]
   PROBOYX +=[[Button.url("Aᴘɪ Iᴅ & Aᴘɪ Hᴀsʜ", "https://t.me/usetgxbot"), Button.url("Rᴇᴅɪs", "https://redislabs.com")]]
-  PROBOYX +=[[Button.url("Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ", "https://t.me/UltraXOT"), Button.url("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", "https://t.me/UltraXChat")]]
+  PROBOYX +=[[Button.url("Sᴜᴘᴘᴏʀᴛ Cʜᴀɴɴᴇʟ", "https://t.me/MONSTERXOT"), Button.url("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", "https://t.me/MONSTERXChat")]]
   PROBOYX +=[[custom.Button.inline("«« Aʟɪᴠᴇ", data="PROBOY")]]
   await event.edit(text=f"Aʟʟ Dᴇᴛᴀɪʟs Oғ Rᴇᴘᴏs", buttons=PROBOYX)
 
 
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"PROBOY")))
 async def callback_query_handler(event):
-# inline by LEGENDX22 and PROBOY22 🔥
-  LEGENDX = f"Hᴇʟʟᴏ !! Tʜɪs ɪs **{BOT}**\n\n"
-  LEGENDX += "**Aʟʟ sʏsᴛᴇᴍs ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ...**\n\n"
-  LEGENDX += f"**{BOT} Vᴇʀsɪᴏɴ** : `{VERSION}`\n\n"
-  LEGENDX += f"**Usᴇʀ** : @{bot.me.username}\n\n"
-  LEGENDX += "**Fᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ ʙᴏᴛ...**\n\n"
-  LEGENDX += "**Tᴇʟᴇᴛʜᴏɴ** : `1.20`\n\n"
-  LEGENDX += "~~ **Tʜᴀɴᴋs ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴍᴇ** !!"
-  BUTTONS = [[Button.url("Mᴀsᴛᴇʀ", f"https://t.me/{bot.me.username}"), Button.url(f"{BOT} Rᴇᴘᴏ", "https://github.com/ULTRA-OP/ULTRA-X")]]
-  BUTTONS += [[custom.Button.inline("Rᴇᴘᴏsɪᴛᴏʀɪᴇs »»", data="LEGENDX")]]
-  await event.edit(text=LEGENDX, buttons=BUTTONS)
+# inline by MONSTERX2 and PROBOY22 🔥
+  MONSTERX = f"Hᴇʟʟᴏ !! Tʜɪs ɪs **{BOT}**\n\n"
+  MONSTERX += "**Aʟʟ sʏsᴛᴇᴍs ᴡᴏʀᴋɪɴɢ ᴘʀᴏᴘᴇʀʟʏ...**\n\n"
+  MONSTERX += f"**{BOT} Vᴇʀsɪᴏɴ** : `{VERSION}`\n\n"
+  MONSTERX += f"**Usᴇʀ** : @{bot.me.username}\n\n"
+  MONSTERX += "**Fᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ ʙᴏᴛ...**\n\n"
+  MONSTERX += "**Tᴇʟᴇᴛʜᴏɴ** : `1.20`\n\n"
+  MONSTERX += "~~ **Tʜᴀɴᴋs ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴍᴇ** !!"
+  BUTTONS = [[Button.url("Mᴀsᴛᴇʀ", f"https://t.me/{bot.me.username}"), Button.url(f"{BOT} Rᴇᴘᴏ", "https://github.com/MONSTER-OP/MONSTER-X")]]
+  BUTTONS += [[custom.Button.inline("Rᴇᴘᴏsɪᴛᴏʀɪᴇs »»", data="MONSTERX")]]
+  await event.edit(text=MONSTERX, buttons=BUTTONS)
 
 
 @xbot.on(events.NewMessage(pattern=("/repo")))
 async def repo(event):
-  await xbot.send_message(event.chat, "**Hᴇʀᴇ Is Tʜᴇ Rᴇᴘᴏ Fᴏʀ υℓтяα χ Usᴇʀʙᴏᴛ** \n\nFᴏʀ Aɴʏ Hᴇʟᴘ :- @UltraXOT", buttons=[[Button.url("⚜️ Rᴇᴘᴏ ⚜️", "https://github.com/ULTRA-OP/ULTRA-X"), Button.url("🔰 Dᴇᴘʟᴏʏ 🔰", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FULTRA-OP%2FHEROKU")]])
+  await xbot.send_message(event.chat, "**Hᴇʀᴇ Is Tʜᴇ Rᴇᴘᴏ Fᴏʀ υℓтяα χ Usᴇʀʙᴏᴛ** \n\nFᴏʀ Aɴʏ Hᴇʟᴘ :- @MONSTERXOT", buttons=[[Button.url("⚜️ Rᴇᴘᴏ ⚜️", "https://github.com/MONSTER-OP/MONSTER-X"), Button.url("🔰 Dᴇᴘʟᴏʏ 🔰", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMONSTER-OP%2FHEROKU&template=https%3A%2F%2Fgithub.com%2FMONSTER-OP%2FHEROKU")]])
 
 
 def get_readable_time(seconds: int) -> str:

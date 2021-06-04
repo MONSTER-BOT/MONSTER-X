@@ -2,22 +2,22 @@ import asyncio
 import io
 import os
 import re
-from ULTRAX import PHOTO, ID as id
+from MONSTERX import PHOTO, ID as id
 from telethon import Button, custom, events, functions
 import telethon
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.utils import pack_bot_file_id
-from ULTRA.uniborgConfig import Config
-from ULTRAX import xbot, devs as DEVS
-from ULTRA import bot
-from ULTRA.plugins.sql_helper.blacklist_ass import (
+from MONSTER.uniborgConfig import Config
+from MONSTERX import xbot, devs as DEVS
+from MONSTER import bot
+from MONSTER.plugins.sql_helper.blacklist_ass import (
     add_nibba_in_db,
     is_he_added,
     removenibba,
 )
 
-from ULTRA.plugins.sql_helper.bot_users_sql import add_me_in_db, his_userid
-from ULTRA.plugins.sql_helper.idadder_sql import (
+from MONSTER.plugins.sql_helper.bot_users_sql import add_me_in_db, his_userid
+from MONSTER.plugins.sql_helper.idadder_sql import (
     add_usersid_in_db,
     already_added,
     get_all_users,
@@ -37,7 +37,7 @@ async def start(event):
     hmmwow = devlop.first_name
     vent = event.chat_id
     mypic = PHOTO
-    starttext = f"Hello, **{firstname}**!!\nNice To Meet You 🤗 !!\nI guess, that you know me, Uhh you don't, np..\nWell I'm **{bot_id}**.\n\n**A Pᴏᴡᴇʀғᴜʟ Assɪᴛᴀɴᴛ Oғ** [{hmmwow}](tg://user?id={boy})\n\n                           **Pᴏᴡᴇʀᴇᴅ Bʏ** [UʟᴛʀᴀX](t.me/UltraXOT)\n\n**Yᴏᴜ Cᴀɴ Cʜᴀᴛ Wɪᴛʜ Mʏ Mᴀsᴛᴇʀ Tʜʀᴏᴜɢʜ Tʜɪs Bᴏᴛ.**\n**Iғ Yᴏᴜ Wᴀɴᴛ Yᴏᴜʀ Oᴡɴ Assɪᴛᴀɴᴛ Yᴏᴜ Cᴀɴ Dᴇᴘʟᴏʏ Fʀᴏᴍ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ.**"
+    starttext = f"Hello, **{firstname}**!!\nNice To Meet You 🤗 !!\nI guess, that you know me, Uhh you don't, np..\nWell I'm **{bot_id}**.\n\n**A Pᴏᴡᴇʀғᴜʟ Assɪᴛᴀɴᴛ Oғ** [{hmmwow}](tg://user?id={boy})\n\n                           **Pᴏᴡᴇʀᴇᴅ Bʏ** [UʟᴛʀᴀX](t.me/MONSTERXOT)\n\n**Yᴏᴜ Cᴀɴ Cʜᴀᴛ Wɪᴛʜ Mʏ Mᴀsᴛᴇʀ Tʜʀᴏᴜɢʜ Tʜɪs Bᴏᴛ.**\n**Iғ Yᴏᴜ Wᴀɴᴛ Yᴏᴜʀ Oᴡɴ Assɪᴛᴀɴᴛ Yᴏᴜ Cᴀɴ Dᴇᴘʟᴏʏ Fʀᴏᴍ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ.**"
     if event.sender_id == boy:
         await xbot.send_message(
             event.chat_id,
@@ -63,8 +63,8 @@ async def start(event):
             caption=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.url("Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ UʟᴛʀᴀX", "http://GitHub.com/ULTRA-OP/ULTRA-X")],
-                [Button.url("Sᴜᴘᴘᴏʀᴛ", "t.me/UltraXchaT")],
+                [custom.Button.url("Dᴇᴘʟᴏʏ Yᴏᴜʀ Oᴡɴ UʟᴛʀᴀX", "http://GitHub.com/MONSTER-OP/MONSTER-X")],
+                [Button.url("Sᴜᴘᴘᴏʀᴛ", "t.me/MONSTERXchaT")],
             ],
         )
         if os.path.exists(mypic):
@@ -82,8 +82,8 @@ async def users(event):
         await event.delete()
         total_users = get_all_users()
         users_list = "Lɪsᴛ Oғ Tᴏᴛᴀʟ Usᴇʀs Iɴ Bᴏᴛ. \n\n"
-        for ultrappl in total_users:
-            users_list += ("=> {} \n").format(int(ultrappl.chat_id))
+        for MONSTERppl in total_users:
+            users_list += ("=> {} \n").format(int(MONSTERppl.chat_id))
         with io.BytesIO(str.encode(users_list)) as tedt_file:
             tedt_file.name = "userlist.txt"
             await xbot.send_file(
@@ -101,7 +101,7 @@ async def users(event):
 async def users(event):
     Pro = "The button is under construction...\nSorry for inconvenience, Will update soon....\nThanks..."
     await event.answer(Pro, alert=True)
-    #@LEGENDX, #@PROBOY add cmd List Here
+    #@MONSTERX, #@PROBOY add cmd List Here
     # later bro
     pass
 

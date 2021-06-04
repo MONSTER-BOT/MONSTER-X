@@ -7,13 +7,13 @@ from ULTRA import CMD_HELP
 from ULTRA.utils import admin_cmd
 
 
-@borg.on(admin_cmd("gbam"))
+@borg.on(admin_cmd("bam"))
 async def gbun(event):
     if event.fwd_from:
         return
     gbunVar = event.text
     gbunVar = gbunVar[6:]
-    mentions = "`Warning!! User 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By Admin...\n`"
+    mentions = "`Warning!! User 𝘽𝘼𝙉𝙉𝙀𝘿 By Admin...\n`"
     no_reason = "**Reason:** Idiot kiddo"
     await event.edit("** Go away noobda❗️⚜️☠️**")
     asyncio.sleep(3.5)
@@ -33,7 +33,7 @@ async def gbun(event):
         else:
             jnl=("`Warning!! `"
                   "[{}](tg://user?id={})"
-                  "` 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By Admin...\n\n`"
+                  "` 𝘽𝘼𝙉𝙉𝙀𝘿 By Admin...\n\n`"
                   "**Person's Name: ** __{}__\n"
                   "**ID : ** `{}`\n"
                 ).format(firstname, idd, firstname, idd)
@@ -49,14 +49,14 @@ async def gbun(event):
                 jnl += no_reason
             await reply_message.reply(jnl)
     else:
-        mention = "`Warning!! User 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 By Admin...\nReason: Not Given `"
+        mention = "`Warning!! User 𝘽𝘼𝙉𝙉𝙀𝘿 By Admin...\nReason: Not Given `"
         await event.reply(mention)
     await event.delete()
 
 CMD_HELP.update(
     {
-        "gbam": "**Plugin : **`gbam`\
-    \n\n**Syntax : **`.gbam`\
-    \n**Function : **fake gban for userbot"
+        "bam": "**Plugin : **`bam`\
+    \n\n**Syntax : **`.bam`\
+    \n**Function : **fake ban for userbot"
     }
 )
