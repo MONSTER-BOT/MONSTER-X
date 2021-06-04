@@ -23,7 +23,7 @@ if MESSAGE is None:
    MSG = '''
 🔥🔥 MONSTER X USERBOT IS ONLINE 🔥🔥 
 I AM HERE FOR MY MASTER PROTECTION
-I AM NON HACKEBLE + BEST USERBOT        #Hmm🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
+I AM NON HACKEBLE + BEST USERBOT
 THANKS MASTER TO DEPLOY ME
 '''
 else:
@@ -74,7 +74,7 @@ def wt(obj, file):
     return False
 
 MASTER = NAME
-GROUP = "[SUPPORT GROUP](https://t.me/MONSTERXChAT)"
+GROUP = "[SUPPORT GROUP](https://t.me/MONSTERXChAT)" #Hmm🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 if __name__=="__main__":
   bot.start()
   bot.run_until_disconnected()
