@@ -1,7 +1,7 @@
 # COPYRIGHT (C) 2021 BY LEGENDX22
 """
 """
-# MADE BY MONSTERX2 🔥 #Hmm🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
+# MADE BY MONSTERX2 🔥 
 # MY IDEA H YRR DONT KANG THIS PLEASE
 import asyncio
 import os
@@ -21,9 +21,9 @@ import time
 MESSAGE = os.environ.get("ALIVE_MSG", None)
 if MESSAGE is None:
    MSG = '''
-🔥🔥 MONSTER X USERBOT IS ONLINE 🔥🔥
+🔥🔥 MONSTER X USERBOT IS ONLINE 🔥🔥 
 I AM HERE FOR MY MASTER PROTECTION
-I AM NON HACKEBLE + BEST USERBOT
+I AM NON HACKEBLE + BEST USERBOT        #Hmm🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 THANKS MASTER TO DEPLOY ME
 '''
 else:
